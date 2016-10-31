@@ -103,7 +103,7 @@ Writing superblocks and filesystem accounting information: done
 ```
 
 ```
-# mount用のdisを作成
+# mount用のdiskを作成
 sudo mkdir -p /mnt/disks/additional-disk
 ```
 
@@ -138,7 +138,7 @@ UUID=393d9fa9-9ab0-43ea-a80b-dbb59c01fd0d /mnt/disks/additional-disk ext4 discar
 
 ### Custom Image作成
 
-Custom Imageから作られていることが分かるように、適当にhome disにファイルを作っておく
+Custom Imageから作られていることが分かるように、適当にhome diskにファイルを作っておく
 
 ```
 gcloud compute ssh sample --zone us-central1-b
